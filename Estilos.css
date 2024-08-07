@@ -1,24 +1,84 @@
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('ruta/a/tu/imagen.jpg'); /* Cambia a tu imagen */
-    background-size: cover;
-    background-position: center;
-    color: #333;
+    background-image: url('imagen.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    color: #333; /* Color del texto gris oscuro */
 }
 
 h1 {
-    font-family: 'Times New Roman', sans-serif;
-    font-size: 2.5em;
-    color: #333;
+    font-family: 'Times New Roman', sans-serif; /* Usa la fuente de Google Fonts */
+    font-size: 2.5em; /* Tamaño de la fuente */
+    color: #fff; /* Color del texto del encabezado */
 }
 
 header {
     background-color: rgba(74, 195, 157, 0.8); /* Fondo semitransparente */
-    color: white;
+    color: white; /* Color del texto del encabezado */
     padding: 20px;
     text-align: center;
 }
 
-/* Otros estilos aquí... */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: white; /* Color del texto del pie de página */
+    text-align: center;
+    padding: 10px 0;
+}
+
+button {
+    background-color: #FF5722; /* Color de fondo del botón */
+    color: white; /* Color del texto en el botón */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e64a19; /* Color más oscuro al pasar el mouse */
+}
+
+/* Contenedor para centrar la imagen */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilos para la imagen centrada */
+.centered-image {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border: 2px solid #343a40; /* Opcional: agrega un borde para mayor visibilidad */
+}
+
+
