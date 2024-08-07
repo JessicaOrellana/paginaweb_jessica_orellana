@@ -2,84 +2,23 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #3bfcff; 
-    color: #333; /* Color del texto gris oscuro */
+    background-image: url('ruta/a/tu/imagen.jpg'); /* Cambia a tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: #333;
 }
 
 h1 {
-    font-family: 'Times New Roman', serif; /* Cambiado a serif para mayor claridad */
-    font-size: 2.5em; /* Tamaño de la fuente */
-    color: #333; /* Color del texto */
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 2.5em;
+    color: #333;
 }
 
 header {
-    background-color: #4ac39d; /* Color de fondo del encabezado */
-    color: white; /* Color del texto del encabezado */
+    background-color: rgba(74, 195, 157, 0.8); /* Fondo semitransparente */
+    color: white;
     padding: 20px;
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav a {
-    color: white; /* Color de los enlaces */
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline; /* Subrayar al pasar el mouse */
-}
-
-nav a.active {
-    font-weight: bold; /* Negrita para el enlace activo */
-    text-decoration: underline; /* Subrayar el enlace activo */
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-footer {
-    background-color: #4ac39d; /* Color de fondo del pie de página */
-    color: white; /* Color del texto del pie de página */
-    text-align: center;
-    padding: 10px 0;
-}
-
-button {
-    background-color: #FF5722; /* Color de fondo del botón */
-    color: white; /* Color del texto en el botón */
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #e64a19; /* Color más oscuro al pasar el mouse */
-}
-
-/* Contenedor para centrar la imagen */
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-/* Estilos para la imagen centrada */
-.centered-image {
-    width: 150px; /* Ajusta el tamaño según sea necesario */
-    height: auto;
-    border: 2px solid #343a40; /* Opcional: agrega un borde para mayor visibilidad */
-}
-
+/* Otros estilos aquí... */
