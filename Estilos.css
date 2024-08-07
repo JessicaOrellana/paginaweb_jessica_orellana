@@ -68,6 +68,6 @@ button:hover {
     top: 10px;
     right: 10px;
     width: 150px; /* Ajusta el tamaño según sea necesario */
-    height: 150;
+    height: 50;
     border: 2px solid #343a40; 
 }
