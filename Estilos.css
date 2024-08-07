@@ -50,6 +50,16 @@ main {
     text-align: center;
 }
 
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #4ac39d; /* Color del título del artículo */
+}
+
+
 footer {
     background-color: rgba(74, 195, 157, 0.8); /* Color de fondo semitransparente */
     color: white; /* Color del texto del pie de página */
