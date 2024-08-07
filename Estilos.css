@@ -62,12 +62,19 @@ button {
 button:hover {
     background-color: #e64a19; /* Color más oscuro al pasar el mouse */
 }
-/* Estilos para la imagen en la esquina superior derecha */
-.corner-image {
-    position: center;
-    top: 10px;
-    right: 10px;
-    width: 10px; /* Ajusta el tamaño según sea necesario */
-    height: 10;
-    border: 2px solid #343a40; 
+}
+
+/* Contenedor para centrar la imagen */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilos para la imagen centrada */
+.centered-image {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border: 2px solid #343a40; /* Opcional: agrega un borde para mayor visibilidad */
 }
