@@ -62,7 +62,6 @@ button {
 button:hover {
     background-color: #e64a19; /* Color más oscuro al pasar el mouse */
 }
-}
 
 /* Contenedor para centrar la imagen */
 .image-container {
