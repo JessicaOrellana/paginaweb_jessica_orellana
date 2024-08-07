@@ -57,6 +57,7 @@ article {
 
 article h2 {
     color: #4ac39d; /* Color del título del artículo */
+     background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
 }
 
 
