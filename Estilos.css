@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -77,10 +76,8 @@ button:hover {
     margin-top: 20px;
 }
 
-/* Estilos para la imagen centrada */
-.centered-image {
-    width: 150px; /* Ajusta el tamaño según sea necesario */
-    height: auto;
-    border: 2px solid #343a40; /* Opcional: agrega un borde para mayor visibilidad */
+/* Estilos para el logo */
+.logo-image {
+    width: 100px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción */
 }
-
