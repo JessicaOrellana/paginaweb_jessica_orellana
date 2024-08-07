@@ -82,8 +82,4 @@ button:hover {
     height: auto;
     border: 2px solid #343a40; /* Opcional: agrega un borde para mayor visibilidad */
 }
-.logo-image {
-    width: 100px; /* Cambia este valor según el tamaño deseado */
-    height: auto; /* Mantiene la proporción */
-}
 
