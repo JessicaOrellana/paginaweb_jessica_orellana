@@ -51,7 +51,7 @@ main {
 }
 
 footer {
-    background-color: #4ac39d; /* Color de fondo del pie de página */
+    background-color: rgba(74, 195, 157, 0.8); /* Color de fondo semitransparente */
     color: white; /* Color del texto del pie de página */
     text-align: center;
     padding: 10px 0;
