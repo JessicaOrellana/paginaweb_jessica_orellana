@@ -64,10 +64,10 @@ button:hover {
 }
 /* Estilos para la imagen en la esquina superior derecha */
 .corner-image {
-    position: absolute;
+    position: center;
     top: 10px;
     right: 10px;
-    width: 50px; /* Ajusta el tamaño según sea necesario */
-    height: 50;
+    width: 10px; /* Ajusta el tamaño según sea necesario */
+    height: 10;
     border: 2px solid #343a40; 
 }
