@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    font-family: 'Times New Roman', sans-serif; /* Usa la fuente de Google Fonts */
+    font-family: 'Times New Roman', serif; /* Cambiado a serif para mayor claridad */
     font-size: 2.5em; /* Tamaño de la fuente */
     color: #333; /* Color del texto */
 }
@@ -38,13 +38,18 @@ nav a:hover {
     text-decoration: underline; /* Subrayar al pasar el mouse */
 }
 
+nav a.active {
+    font-weight: bold; /* Negrita para el enlace activo */
+    text-decoration: underline; /* Subrayar el enlace activo */
+}
+
 main {
     padding: 20px;
     text-align: center;
 }
 
 footer {
-    background-color: #333; /* Color de fondo del pie de página */
+    background-color: #4ac39d; /* Color de fondo del pie de página */
     color: white; /* Color del texto del pie de página */
     text-align: center;
     padding: 10px 0;
@@ -77,3 +82,4 @@ button:hover {
     height: auto;
     border: 2px solid #343a40; /* Opcional: agrega un borde para mayor visibilidad */
 }
+
